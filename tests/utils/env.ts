@@ -1,6 +1,6 @@
 export const ENV = {
-    BASE_URL: getEnvVariable('BASE_URL')
-
+    USERNAME: getEnvVariable('API_USERNAME'),
+    PASSWORD: getEnvVariable('API_PASSWORD')
 };
 
 function getEnvVariable(varname: string): string {

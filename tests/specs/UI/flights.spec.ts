@@ -1,4 +1,4 @@
-import { test, expect } from '../../fixtures/PageFixtures';
+import { test, expect } from '../../fixtures/TestFixtures';
 
 test.describe('Flights Page', () => {
 
